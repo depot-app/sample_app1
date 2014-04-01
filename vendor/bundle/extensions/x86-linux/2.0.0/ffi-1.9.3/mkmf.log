@@ -1,0 +1,366 @@
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lffi     -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lffi     -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+package configuration for libffi
+cflags: -I/usr/lib/libffi-3.0.5/include
+ldflags: 
+libs: -lffi
+
+have_library: checking for ffi_call() in -lffi... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic      -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ffi.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_call; return 0; }
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_prep_closure()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘ffi_prep_closure’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_closure; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘ffi_prep_closure’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { ffi_prep_closure(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_raw_call()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘ffi_raw_call’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_raw_call; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘ffi_raw_call’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { ffi_raw_call(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_prep_raw_closure()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘ffi_prep_raw_closure’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_raw_closure; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘ffi_prep_raw_closure’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { ffi_prep_raw_closure(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_blocking_region()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: ‘rb_thread_blocking_region’ es obsoleto (declarado en /home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/intern.h:841)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_with_gvl()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘rb_thread_call_with_gvl’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_with_gvl; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘rb_thread_call_with_gvl’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { rb_thread_call_with_gvl(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_without_gvl()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘rb_thread_call_without_gvl’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘rb_thread_call_without_gvl’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { rb_thread_call_without_gvl(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for ffi_prep_cif_var()... -------------------- no
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘ffi_prep_cif_var’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_prep_cif_var; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC -I/usr/lib/libffi-3.0.5/include conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lffi  -lffi -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘ffi_prep_cif_var’
+/tmp/cc5dPNGg.o: In function `t':
+/home/invitado/rails_projects/sample_app/vendor/bundle/gems/ffi-1.9.3/ext/ffi_c/conftest.c:5: undefined reference to `ffi_prep_cif_var'
+collect2: ld devolvió el estado de salida 1
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { ffi_prep_cif_var(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+ 1: #ifndef EXTCONF_H
+ 2: #define EXTCONF_H
+ 3: #define HAVE_FFI_PREP_CLOSURE 1
+ 4: #define HAVE_FFI_RAW_CALL 1
+ 5: #define HAVE_FFI_PREP_RAW_CLOSURE 1
+ 6: #define HAVE_RAW_API 1
+ 7: #define HAVE_RB_THREAD_BLOCKING_REGION 1
+ 8: #define HAVE_RB_THREAD_CALL_WITH_GVL 1
+ 9: #define HAVE_RB_THREAD_CALL_WITHOUT_GVL 1
+10: #define RUBY_1_9 1
+11: #endif
+/* end */
+

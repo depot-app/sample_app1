@@ -1,0 +1,445 @@
+find_header: checking for sqlite3.h... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -E -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sqlite3.h>
+/* end */
+
+--------------------
+
+find_library: checking for sqlite3_libversion_number() in -lsqlite3... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_libversion_number’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_libversion_number; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_libversion_number’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_libversion_number(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for rb_proc_arity()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_proc_arity; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_initialize()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_initialize’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_initialize; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_initialize’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_initialize(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_backup_init()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_backup_init’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_backup_init; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_backup_init’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_backup_init(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_column_database_name()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_column_database_name’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_column_database_name; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_column_database_name’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_column_database_name(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_enable_load_extension()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_enable_load_extension’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_enable_load_extension; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_enable_load_extension’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_enable_load_extension(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_load_extension()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_load_extension’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_load_extension; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_load_extension’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_load_extension(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_open_v2()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_open_v2’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_open_v2; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_open_v2’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_open_v2(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_prepare_v2()... -------------------- yes
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: error: ‘sqlite3_prepare_v2’ no se declaró aquí (primer uso en esta función)
+conftest.c:5: error: (Cada identificador no declarado solamente se reporta una vez
+conftest.c:5: error: para cada funcion en la que aparece.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_prepare_v2; return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+"gcc -o conftest -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -Wl,-R/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic    -lsqlite3  -Wl,-R -Wl,/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -L/home/invitado/.rvm/rubies/ruby-2.0.0-p451/lib -lruby -lsqlite3  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: En la función ‘t’:
+conftest.c:5: aviso: declaración implícita de la función ‘sqlite3_prepare_v2’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int t(void) { sqlite3_prepare_v2(); return 0; }
+ 6: int main(int argc, char **argv)
+ 7: {
+ 8:   if (argc > 1000000) {
+ 9:     printf("%p", &t);
+10:   }
+11: 
+12:   return 0;
+13: }
+/* end */
+
+--------------------
+
+have_type: checking for sqlite3_int64 in sqlite3.h... -------------------- yes
+
+"gcc -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sqlite3.h>
+4: 
+5: /*top*/
+6: typedef sqlite3_int64 conftest_type;
+7: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+
+have_type: checking for sqlite3_uint64 in sqlite3.h... -------------------- yes
+
+"gcc -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/i686-linux -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0/ruby/backward -I/home/invitado/.rvm/rubies/ruby-2.0.0-p451/include/ruby-2.0.0 -I.  -D_FILE_OFFSET_BITS=64   -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sqlite3.h>
+4: 
+5: /*top*/
+6: typedef sqlite3_uint64 conftest_type;
+7: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+

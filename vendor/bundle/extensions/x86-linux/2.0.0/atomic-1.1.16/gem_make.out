@@ -1,0 +1,13 @@
+/home/invitado/.rvm/rubies/ruby-2.0.0-p451/bin/ruby extconf.rb 
+checking for libkern/OSAtomic.h... no
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling atomic_reference.c
+linking shared-object atomic_reference.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 atomic_reference.so ./.gem.20140401-3872-1e2tacr
+installing default atomic_reference libraries
