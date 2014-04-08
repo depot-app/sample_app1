@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 #ruby-gemset=sample_app
 #gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '~> 3.1.1.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
