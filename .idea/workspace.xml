@@ -2,7 +2,205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3575d2d5-0daa-4a2f-a45d-059c2dd966bf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-1bf0deecbdf392017b615dd324c3ee32.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/cache/factory_girl-4.2.0.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/cache/factory_girl_rails-4.2.1.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails-7817182914998891bef6d75563a880dd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/.autotest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/.rspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/.simplecov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/.yardopts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/3.0.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/3.0.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/3.1.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/3.1.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/3.2.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/3.2.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/4.0.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/gemfiles/4.0.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/Appraisals" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/Appraisals" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/CONTRIBUTION_GUIDELINES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/GETTING_STARTED.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/NEWS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/activesupport_instrumentation_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/aliases.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/aliases_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/aliases_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-1bf0deecbdf392017b615dd324c3ee32.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/features/step_definitions/appraisal.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute/association.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/declaration/association.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/attribute/association_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/attribute_aliases_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute_assigner.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/attribute_existing_on_object_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/decorator/attribute_hash.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute_list.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/attribute_list_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/attribute_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy/attributes_for.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/attributes_for_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/strategy/attributes_for_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/attributes_from_instance_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/attributes_ordered_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy/build.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/build_list_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/build_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/strategy/build_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/build_stubbed_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/callback.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/support/matchers/callback.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/callback_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/callbacks_observer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/callbacks_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/decorator/class_key_hash.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/configuration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy/create.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/create_list_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/create_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/strategy/create_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/cucumber.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/features/step_definitions/database_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/declaration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/support/matchers/declaration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/declaration_list.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/declaration_list_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/syntax/default.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/define_child_before_parent_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/support/macros/define_constant.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/definition.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/definition_hierarchy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/definition_proxy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/definition_proxy_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/definition_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/definition_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/definition_without_block_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/support/matchers/delegate.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/decorator/disallows_duplicates_registry.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/disallows_duplicates_registry_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute/dynamic.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/declaration/dynamic.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/attribute/dynamic_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/features/support/env.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/features/support/env.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/errors.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/evaluation.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/evaluator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/evaluator_class_definer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/evaluator_class_definer_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/features/support/factories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/factory.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/specifications/factory_girl-4.2.0.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/build_info/factory_girl-4.2.0.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/factory_girl.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/lib/generators/factory_girl.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/specifications/factory_girl_rails-4.2.1.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/build_info/factory_girl_rails-4.2.1.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/factory_girl_rails.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/lib/factory_girl_rails.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/features/step_definitions/factory_girl_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/factory_runner.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/factory_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/features/find_definitions.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/find_definitions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/find_definitions_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/features/fixture_replacement_config.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/lib/generators/factory_girl/model/templates/fixtures.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/features/generators.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/global_initialize_with_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/global_to_create_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/declaration/implicit.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/declaration/implicit_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/initialize_with_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/decorator/invocation_tracker.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/keyed_by_class_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/features/load_definitions.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/syntax/methods.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/lib/generators/factory_girl/model/model_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/modify_factories_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/modify_inherited_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/nested_attributes_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/decorator/new_constructor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy/null.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/null_factory.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/null_factory_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/null_object.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/null_object_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/overrides_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/parent_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/gemfiles/rails3.0.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/gemfiles/rails3.0.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/gemfiles/rails3.1.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/gemfiles/rails3.1.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/gemfiles/rails3.2.gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/gemfiles/rails3.2.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/features/step_definitions/rails_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl_rails-4.2.1/lib/factory_girl_rails/railtie.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/register_strategies_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/registry.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/registry_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/reload.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/sequence.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute/sequence.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/sequence_context_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/sequence_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/sequence_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/attribute/sequence_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/skip_create_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/attribute/static.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/declaration/static.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/attribute/static_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/support/shared_examples/strategy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy_calculator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/strategy_calculator_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy_syntax_method_registrar.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/strategy/stub.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/stub_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/factory_girl/strategy/stub_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/syntax.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/syntax_methods_within_dynamic_attributes_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/syntax_runner.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/trait.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/support/matchers/trait.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/traits_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/spec/acceptance/transient_attributes_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bundle/gems/factory_girl-4.2.0/lib/factory_girl/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,26 +222,7 @@
     <favorites_list name="sample_app" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="user_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2607" selection-end="2607" vertical-scroll-proportion="12.808989" vertical-offset="105" max-vertical-offset="1335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -56,30 +235,37 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/spec/support/utilities.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140407213907_add_index_to_users_email.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/vendor/bundle/gems/i18n-0.6.9/lib/i18n.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/factories.rb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/spec/requests/static_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="127" />
+    <option name="x" value="148" />
     <option name="y" value="52" />
     <option name="width" value="1100" />
-    <option name="height" value="390" />
+    <option name="height" value="547" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -135,53 +321,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,7 +347,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,15 +547,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="52" width="1100" height="390" extended-state="0" />
+    <frame x="148" y="52" width="1100" height="547" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5498282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22098215" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46679318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40986717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -379,11 +563,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -423,46 +607,109 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.0" vertical-offset="1481" max-vertical-offset="1875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="3" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0" vertical-offset="1472" max-vertical-offset="1875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="27" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="405" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="83" column="0" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="960">
-          <folding />
-        </state>
+        <state line="83" column="0" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="16" column="24" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="5" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
@@ -480,56 +727,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="593" selection-end="593" vertical-scroll-proportion="0.58" vertical-offset="155" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="274" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="31" selection-start="173" selection-end="173" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="370" selection-end="370" vertical-scroll-proportion="0.35714287" vertical-offset="45" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/utilities.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="168" selection-end="168" vertical-scroll-proportion="0.44871795" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="44" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.7890625" vertical-offset="458" max-vertical-offset="1485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="14" selection-start="1434" selection-end="1434" vertical-scroll-proportion="1.1171429" vertical-offset="1004" max-vertical-offset="1545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
@@ -539,21 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140407190328_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7894737" vertical-offset="90" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="240" selection-end="240" vertical-scroll-proportion="0.32686982" vertical-offset="2" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="232" selection-end="232" vertical-scroll-proportion="0.36407766" vertical-offset="0" max-vertical-offset="412" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7894737" vertical-offset="90" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bundle/gems/i18n-0.6.9/lib/i18n.rb">
@@ -573,30 +759,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140407215638_add_password_digest_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2607" selection-end="2607" vertical-scroll-proportion="12.808989" vertical-offset="105" max-vertical-offset="1335">
-          <folding />
-        </state>
+        <state line="83" column="0" selection-start="2607" selection-end="2607" vertical-scroll-proportion="1.300926" vertical-offset="964" max-vertical-offset="1335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="440" selection-end="440" vertical-scroll-proportion="0.5738636" vertical-offset="154" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="1" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.6315789" vertical-offset="2112" max-vertical-offset="2250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/utilities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="168" selection-end="168" vertical-scroll-proportion="0.495283" vertical-offset="0" max-vertical-offset="212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.30150753" vertical-offset="270" max-vertical-offset="1290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="46" selection-start="167" selection-end="167" vertical-scroll-proportion="0.3537736" vertical-offset="0" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="0.495283" vertical-offset="0" max-vertical-offset="212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.57471263" vertical-offset="455" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.64171124" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="207" selection-end="207" vertical-scroll-proportion="0.6553398" vertical-offset="45" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.50549453" vertical-offset="73" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="28" selection-start="2224" selection-end="2224" vertical-scroll-proportion="0.0" vertical-offset="1163" max-vertical-offset="1515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="56" selection-start="169" selection-end="169" vertical-scroll-proportion="-0.6666667" vertical-offset="141" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.6335878" vertical-offset="307" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.76785713" vertical-offset="171" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="571" selection-end="571" vertical-scroll-proportion="0.5677083" vertical-offset="221" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5027933" vertical-offset="225" max-vertical-offset="405" />
       </provider>
     </entry>
   </component>
