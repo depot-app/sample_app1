@@ -13,7 +13,7 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails sample_app: production" uuid="79757345-c16e-4a2a-8113-2cf76d6af0ef">
+    <data-source source="LOCAL" name="Rails sample_app: production" uuid="a5ee5c3e-f2d3-4100-be38-03cd4642e896">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
